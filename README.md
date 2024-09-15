@@ -9,13 +9,14 @@ Com o crescente uso de sistemas de inteligência artificial em diversos setores,
 A falta de um modelo de aprendizado contínuo eficaz pode resultar em respostas desatualizadas e em uma experiência de usuário insatisfatória. Segundo Lison (2016), sistemas conversacionais precisam ser flexíveis e ter a capacidade de aprender com interações anteriores para atender melhor às demandas dos usuários. Nesse sentido, a implementação de um modelo de aprendizado contínuo em um sistema conversacional pode garantir uma atualização dinâmica de conhecimento e a adaptação às novas intenções e necessidades de uso.
 
 # Solução proposta
+
+A solução proposta envolve a construção de uma arquitetura modular que permite a atualização contínua do sistema conversacional com base nas interações dos usuários. O diagrama de arquitetura abaixo descreve os principais módulos do sistema:
+
 <div align="center">
   <sub>Figura 1 - Diagrama de Arquitetura</sub>
   <img src="diagrama.png" width="100%" alt='Diagrama de arquitetura'>
   <sup>Fonte: Os autores (2024)</sup>
 </div>
-
-A solução proposta envolve a construção de uma arquitetura modular que permite a atualização contínua do sistema conversacional com base nas interações dos usuários. O diagrama de arquitetura abaixo descreve os principais módulos do sistema:
 
 ## Descrição dos Módulos:
 - Módulo de Coleta de Dados (Input Pipeline):
