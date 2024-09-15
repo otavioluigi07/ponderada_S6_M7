@@ -17,32 +17,38 @@ A falta de um modelo de aprendizado contínuo eficaz pode resultar em respostas 
 
 A solução proposta envolve a construção de uma arquitetura modular que permite a atualização contínua do sistema conversacional com base nas interações dos usuários. O diagrama de arquitetura abaixo descreve os principais módulos do sistema:
 
-Descrição dos Módulos
-Módulo de Coleta de Dados (Input Pipeline):
+## Descrição dos Módulos:
+- Módulo de Coleta de Dados (Input Pipeline):
 
 Responsabilidade: Coleta todas as interações realizadas entre o usuário e o sistema conversacional. Esse módulo armazena as entradas em um banco de dados de interações para serem usadas posteriormente no processo de atualização e treinamento.
 Função: Filtrar e armazenar dados relevantes que podem ser usados para melhorar o entendimento do sistema de novas intenções e atualizações.
-Módulo de Processamento de Interações:
+
+- Módulo de Processamento de Interações:
 
 Responsabilidade: Processa as interações coletadas para extrair novas intenções, entidades, ou padrões de linguagem que não foram previamente identificados.
 Função: Utilizar técnicas de Processamento de Linguagem Natural (PLN), como análise de sentimento e extração de entidades, para identificar oportunidades de aprendizado a partir das interações dos usuários.
-Módulo de Feedback Explícito e Implícito:
+
+- Módulo de Feedback Explícito e Implícito:
 
 Responsabilidade: Capturar feedback explícito (direto) dos usuários e feedback implícito (baseado nas ações e correções automáticas) para determinar a eficiência do sistema em fornecer respostas adequadas.
 Função: Coletar e processar dados de correção para ajustar os modelos.
-Módulo de Treinamento Contínuo (Continuous Learning Engine):
+
+- Módulo de Treinamento Contínuo (Continuous Learning Engine):
 
 Responsabilidade: Implementa o mecanismo de aprendizado contínuo, onde os novos dados coletados são usados para treinar o modelo sem comprometer o conhecimento já adquirido.
 Função: Atualizar o modelo de maneira incremental, usando técnicas como online learning e experience replay, garantindo que o sistema evolua continuamente sem esquecer informações passadas.
-Módulo de Atualização Dinâmica:
+
+- Módulo de Atualização Dinâmica:
 
 Responsabilidade: Atualiza o sistema em tempo real com base nos novos padrões identificados pelo módulo de treinamento contínuo.
 Função: Garantir que as atualizações ocorram sem a necessidade de reimplantação ou grandes períodos de inatividade.
-Módulo de Gestão de Conhecimento:
+
+- Módulo de Gestão de Conhecimento:
 
 Responsabilidade: Mantém um repositório de conhecimento que armazena as intenções, entidades, e dados aprendidos pelo sistema. Isso inclui novas respostas e intenções adicionadas ao longo do tempo.
 Função: Atualizar a base de conhecimento e disponibilizá-la para futuras interações do sistema.
-Módulo de Avaliação (Evaluation Engine):
+
+- Módulo de Avaliação (Evaluation Engine):
 
 Responsabilidade: Avaliar periodicamente a precisão e o desempenho do sistema atualizado, identificando áreas que necessitam de refinamento.
 Função: Validar a eficácia do aprendizado contínuo e garantir que as atualizações mantêm a precisão desejada.
