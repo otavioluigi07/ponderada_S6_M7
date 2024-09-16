@@ -63,5 +63,3 @@ LISON, Pierre. Towards Continuous Learning for Spoken Language Understanding in 
 GOODFELLOW, Ian; BENGIO, Yoshua; COURVILLE, Aaron. Deep Learning. Cambridge: MIT Press, 2016.
 
 BASS, Len; CLEMENTS, Paul; KAZMAN, Rick. Software Architecture in Practice. United States of America: Pearson Addison Wesley, 2021. 438p. ISBN 9780136886099.
-
-OPENAI. ChatGPT. Disponível em: https://chat.openai.com/. Acesso em: 15 set. 2024.
