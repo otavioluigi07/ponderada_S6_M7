@@ -62,6 +62,6 @@ LISON, Pierre. Towards Continuous Learning for Spoken Language Understanding in 
 
 GOODFELLOW, Ian; BENGIO, Yoshua; COURVILLE, Aaron. Deep Learning. Cambridge: MIT Press, 2016.
 
-SUTTON, Richard S.; BARTO, Andrew G. Reinforcement Learning: An Introduction. 2. ed. Cambridge: MIT Press, 2018.
+BASS, Len; CLEMENTS, Paul; KAZMAN, Rick. Software Architecture in Practice. United States of America: Pearson Addison Wesley, 2021. 438p. ISBN 9780136886099.
 
-SUN, Yi; HONG, Yuwei; HUANG, Zhen; LI, Lei. Continuous Learning for Natural Language Processing: A Review. arXiv preprint arXiv:2107.03799, 2021.
+OPENAI. ChatGPT. Disponível em: https://chat.openai.com/. Acesso em: 15 set. 2024.
